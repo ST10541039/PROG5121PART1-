@@ -113,6 +113,4 @@ public class UserAuthSystem {
             System.out.println(UserAuthSystem.returnLoginStatus(status));
 
             if (status) break; // stop loop on successful login
-        }
-    }
-}
+        }}}
