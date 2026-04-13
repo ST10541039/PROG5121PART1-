@@ -111,6 +111,8 @@ public class UserAuthSystem {
             status = UserAuthSystem.loginUser(loginUser, loginPass, storedUsername, storedPassword);
 
             System.out.println(UserAuthSystem.returnLoginStatus(status));
-
+             
             if (status) break; // stop loop on successful login
         }
+    }
+}
