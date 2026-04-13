@@ -114,4 +114,3 @@ public class UserAuthSystem {
 
             if (status) break; // stop loop on successful login
         }
-        
